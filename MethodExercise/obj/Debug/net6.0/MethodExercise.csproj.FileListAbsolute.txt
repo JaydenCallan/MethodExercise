@@ -1,0 +1,15 @@
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\bin\Debug\net6.0\MethodExercise.exe
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\bin\Debug\net6.0\MethodExercise.deps.json
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\bin\Debug\net6.0\MethodExercise.runtimeconfig.json
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\bin\Debug\net6.0\MethodExercise.dll
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\bin\Debug\net6.0\MethodExercise.pdb
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\obj\Debug\net6.0\MethodExercise.csproj.AssemblyReference.cache
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\obj\Debug\net6.0\MethodExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\obj\Debug\net6.0\MethodExercise.AssemblyInfoInputs.cache
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\obj\Debug\net6.0\MethodExercise.AssemblyInfo.cs
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\obj\Debug\net6.0\MethodExercise.csproj.CoreCompileInputs.cache
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\obj\Debug\net6.0\MethodExercise.dll
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\obj\Debug\net6.0\refint\MethodExercise.dll
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\obj\Debug\net6.0\MethodExercise.pdb
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\obj\Debug\net6.0\MethodExercise.genruntimeconfig.cache
+C:\Users\wuzhizface\source\repos\MethodExercise\MethodExercise\obj\Debug\net6.0\ref\MethodExercise.dll
