@@ -8,13 +8,23 @@ namespace MethodExercise
         {
             return numbers.Sum();
         }
-        public static int Subtract(int var1, int var2)
+        public static int Subtract(params int[] numbers)
         {
-            return var1 - var2;
+            int sum = 0;
+            for(int i = 0; i < numbers.Length; i++)
+            {
+                sum += numbers[i];
+            }
+            return sum;
         }
-        public static int Multiply(int var1, int var2)
+        public static int Multiply(params int[] numbers)
         {
-            return var1 * var2;
+            int sum = 1;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                sum *= numbers[i];
+            }
+            return sum;
         }
         public static int Divide(int var1, int var2)
         {
@@ -26,12 +36,46 @@ namespace MethodExercise
         }
         static void Main(string[] args)
         {
-            int added = Add(1, 2, 3);
-            int subtracted = Subtract(3, 2);
-            int multiplied = Multiply(3, 2);
-            int divided = Divide(6, 2);
-            int modulus = Modulus(7, 2);
-            Console.WriteLine($"1+2+3={added}\n3-2={subtracted}\n3*2={multiplied}\n6/2={divided}\n7%2={modulus}");
+            //Console.WriteLine("What is your name?");
+            //string name = Console.ReadLine();
+
+            //Console.WriteLine("How old are you?");
+            //string age = Console.ReadLine();
+
+            //Console.WriteLine("What is a name for a dog?");
+            //string dogName = Console.ReadLine();
+
+            //Console.WriteLine("What color is your dog?");
+            //string dogColor = Console.ReadLine();
+
+            //Console.WriteLine($"Where was a man named {name}, he was {age} years old.");
+            //Console.WriteLine($"He had a {dogColor} dog named {dogName}.");
+            //Console.WriteLine($"{name} loved {dogName}, but he did not love being {age} years old.");
+
+            Console.WriteLine("Numbers to add:");
+            int num1 = int.Parse(Console.ReadLine());
+            int num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine($"The total is {Add(num1, num2)}\n");
+
+            Console.WriteLine("Numbers to subtract:");
+            num1 = int.Parse(Console.ReadLine());
+            num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine($"The total is {Subtract(num1, num2)}\n");
+
+            Console.WriteLine("Numbers to multiply:");
+            num1 = int.Parse(Console.ReadLine());
+            num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine($"The total is {Multiply(num1, num2)}\n");
+
+            Console.WriteLine("Numbers to divide:");
+            num1 = int.Parse(Console.ReadLine());
+            num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine($"The total is {Divide(num1, num2)}\n");
+
+            Console.WriteLine("Numbers to modulus:");
+            num1 = int.Parse(Console.ReadLine());
+            num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine($"The total is {Modulus(num1, num2)}\n");
         }
     }
 }
